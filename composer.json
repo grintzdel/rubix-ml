@@ -1,0 +1,18 @@
+{
+    "name": "mathis/rubix-php",
+    "autoload": {
+        "psr-4": {
+            "Mathis\\RubixPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "grintzdel",
+            "email": "mathis.oudin@etu.uca.fr"
+        }
+    ],
+    "require": {
+        "rubix/ml": "^2.5",
+      "ext-gd": "*"
+    }
+}
